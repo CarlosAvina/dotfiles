@@ -1,0 +1,36 @@
+onboarding = false
+# Keybindings aligned with ~/.config/tmux/tmux.conf.
+# Herdr supports one prefix key. Ctrl+A is the more portable choice across
+# terminals; tmux's Ctrl+Space secondary prefix has no Herdr equivalent.
+
+[keys]
+prefix = "ctrl+a"
+
+# General
+reload_config = "prefix+q"
+
+# Pane controls
+# Herdr names splits by divider orientation: horizontal creates top/bottom panes;
+# vertical creates side-by-side panes.
+split_horizontal = "prefix+h"
+split_vertical = "prefix+v"
+close_pane = "prefix+x"
+focus_pane_left = "ctrl+alt+left"
+focus_pane_right = "ctrl+alt+right"
+focus_pane_up = "ctrl+alt+up"
+focus_pane_down = "ctrl+alt+down"
+
+# Tab controls (tmux windows)
+rename_tab = "prefix+r"
+new_tab = "prefix+c"
+close_tab = "prefix+k"
+switch_tab = "alt+1..9"
+previous_tab = "alt+left"
+next_tab = "alt+right"
+
+# Workspace controls (tmux sessions)
+rename_workspace = "prefix+shift+r"
+new_workspace = "prefix+shift+c"
+close_workspace = "prefix+shift+k"
+previous_workspace = "alt+up"
+next_workspace = "alt+down"
