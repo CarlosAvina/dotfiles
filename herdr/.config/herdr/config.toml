@@ -1,10 +1,9 @@
 onboarding = false
 # Keybindings aligned with ~/.config/tmux/tmux.conf.
-# Herdr supports one prefix key. Ctrl+A is the more portable choice across
-# terminals; tmux's Ctrl+Space secondary prefix has no Herdr equivalent.
+# Herdr supports one prefix key, matching tmux's primary Ctrl+Space prefix.
 
 [keys]
-prefix = "ctrl+a"
+prefix = "ctrl+space"
 
 # General
 reload_config = "prefix+q"
